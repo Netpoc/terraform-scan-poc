@@ -1,4 +1,4 @@
-manifest_version: 1
-dependencies:
+version: 1
+components:
   - name: terraform-azure-component-network-snowflake
     version: "3.1.0"
