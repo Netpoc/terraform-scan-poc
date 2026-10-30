@@ -1,4 +1,6 @@
-version: 1
-components:
-  - name: terraform-azure-component-network-snowflake
-    version: "3.1.0"
+apiVersion: v1
+kind: ComponentDependencies
+spec:
+  dependencies:
+    - coordinate: terraform-azure-component-network-snowflake
+      version: "3.1.0"
